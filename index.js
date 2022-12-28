@@ -3,7 +3,7 @@ import Web3 from "web3";
 require("dotenv").config({ path: "iot.env" });
 
 // Set the provider to use the local development network
-const web3 = new Web3(new Web3.providers.HttpProvider("QUICKNODE_HTTP_URL"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://green-serene-seed.ethereum-goerli.discover.quiknode.pro/19b2ceafc983a06ff91b81470bb1fb7c5e0a625f/"));
 
 // Get the contract ABI and address
 const contractABI = [[

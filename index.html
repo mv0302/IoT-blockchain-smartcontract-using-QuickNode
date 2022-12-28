@@ -1,34 +1,49 @@
 <html>
   <head>
-    <title>IoT Plant Information</title>
+    <title>IoT Plant Monitoring</title>
   </head>
   <body>
-    <h1>IoT Plant Information</h1>
+    <h1>IoT Plant Monitoring</h1>
+    <h2>Add Plant Information</h2>
     <form id="add-form">
       <label for="plant-id">Plant ID:</label><br>
-      <input type="number" id="plant-id" name="plant-id"><br>
+      <input type="text" id="plant-id" name="plant-id"><br>
       <label for="temperature">Temperature:</label><br>
-      <input type="number" id="temperature" name="temperature"><br>
+      <input type="text" id="temperature" name="temperature"><br>
       <label for="soil-moisture">Soil Moisture:</label><br>
-      <input type="number" id="soil-moisture" name="soil-moisture"><br>
+      <input type="text" id="soil-moisture" name="soil-moisture"><br>
       <label for="height">Height:</label><br>
-      <input type="number" id="height" name="height"><br>
+      <input type="text" id="height" name="height"><br>
       <label for="color">Color:</label><br>
       <input type="text" id="color" name="color"><br><br>
-      <button type="submit">Add Plant Information</button>
-    </form>
-    <br>
-    <h2>Plant Information</h2>
-    <table id="plant-table">
-      <tr>
-        <th>Plant ID</th>
-        <th>Temperature</th>
-        <th>Soil Moisture</th>
-        <th>Height</th>
-        <th>Color</th>
-      </tr>
-    </table>
+      <button type="submit">Submit</button>
+    </form> 
+    <h2>Get Plant Information</h2>
+    <form id="get-form">
+      <label for="get-plant-id">Plant ID:</label><br>
+      <input type="text" id="get-plant-id" name="get-plant-id"><br><br>
+      <button type="submit">Submit</button>
+    </form> 
+    <div id="output"></div>
     <script src="./index.js"></script>
     <link href="/index.css" ... >
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
